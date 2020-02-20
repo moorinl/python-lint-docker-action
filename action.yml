@@ -1,0 +1,5 @@
+name: 'Python lint'
+description: 'checks your python code with black and isort.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
